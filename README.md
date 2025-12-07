@@ -18,4 +18,9 @@ https://web.archive.org/web/20251203040139/https://meta.wikimedia.org/wiki/List_
 ![no cebuano wiki labeled](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/nocebwiki_correlation_tiles_w_values.png)
 ### Regression and Model Predictions
 ![model](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/articles_scatterplots_cebanalysis.png)
+
+|   |All.pages|Edits|Admins|Users|Active.users|Files|
+-------------------------------------------------
+Predicted|1650391|358997.2|161855.6|156380|144828.8|126026.1|
+Observed|11230188|36794200|7|134536|192|3|
 ## Conclusion
