@@ -37,7 +37,10 @@ The visualization below shows a basic scatterplot for every possible pair of var
 
 Each pair appears to have a very strong positive correlation, which makes sense. A wiki that is larger in one respect will tend to also be larger in all others.  
 
-Additionally, each scatterplot shows one point which appears to have high leverage, but lower influence. This point always corresponds to the English version of Wikipedia. Considering the fact that [nearly half of all web content](https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/?srsltid=AfmBOoozXpPAKVyVbBlqITNw3puRWJ7t3Ke4WGX4FH-w2HDzYae7PPle) uses English as of October 2025, English Wikipedia being much larger than the site's other editions is not surprising.
+Additionally, each scatterplot shows one point which appears to have high leverage, but lower influence. This point always corresponds to the English version of Wikipedia. Considering the fact that [nearly half of all web content](https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/?srsltid=AfmBOoozXpPAKVyVbBlqITNw3puRWJ7t3Ke4WGX4FH-w2HDzYae7PPle) uses English as of October 2025, English Wikipedia being much larger than the site's other editions is not surprising.  
+
+Interestingly, each scatterplot in which one variable in the pair was article count also shows one point which appears to have both high leverage and high influence. As may be expected, the article count pairs also have weaker correlations.  
+
 ### Heatmap (geom_tile)
 ![correlation heatmap blank](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/correlation_tiles_wo_values.png)
 ![correlation heatmap labeled](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/correlation_tiles_w_values.png)
