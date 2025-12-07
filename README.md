@@ -30,6 +30,7 @@ At this point, all that remained was the "Language" column and the relevant nume
 
 ## Exploratory Analysis
 ### Scatterplot Matrix (ggpairs)
+The visualization below shows a basic scatterplot for every possible pair of variables in our data, as well as the Pearson correlation coefficient measuring the linear correlation between the two variables that make up each of those pairs. 
 ![scatterplot matrix](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/scatterplot_matrix.png)
 ### Heatmap (geom_tile)
 ![correlation heatmap blank](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/correlation_tiles_wo_values.png)
