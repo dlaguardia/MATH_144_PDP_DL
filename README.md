@@ -30,8 +30,10 @@ At this point, all that remained was the "Language" column and the relevant nume
 
 ## Exploratory Analysis
 ### Scatterplot Matrix (ggpairs)
-The visualization below shows a basic scatterplot for every possible pair of variables in our data, as well as the Pearson correlation coefficient measuring the linear correlation between the two variables that make up each of those pairs. 
-![scatterplot matrix](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/scatterplot_matrix.png)
+The visualization below shows a basic scatterplot for every possible pair of variables in our data, as well as the Pearson correlation coefficient measuring the linear correlation between the two variables that make up each of those pairs.   
+![scatterplot matrix](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/scatterplot_matrix.png)  
+Each pair appears to have a very strong positive correlation, which makes sense. A wiki that is larger in one respect will tend to also be larger in all others.  
+Additionally, each scatterplot shows one point which appears to have high leverage, but lower influence. This point always corresponds to the English version of Wikipedia. Considering the fact that [nearly half of web content](https://www.statista.com/statistics/262946/most-common-languages-on-the-internet/?srsltid=AfmBOoozXpPAKVyVbBlqITNw3puRWJ7t3Ke4WGX4FH-w2HDzYae7PPle) as a whole currently uses English, English Wikipedia being much larger than the site's other editions is not surprising.
 ### Heatmap (geom_tile)
 ![correlation heatmap blank](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/correlation_tiles_wo_values.png)
 ![correlation heatmap labeled](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/correlation_tiles_w_values.png)
