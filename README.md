@@ -1,7 +1,7 @@
 # Wikipedia Size by Language Edition
 
 ## Introduction
-In this project, I wanted to investigate how different language editions of Wikipedia compare to each other, particularly in how 'large' they are. Here, the idea of 'size' refers to several different measurements of an edition's userbase, actual amount of content, etc. There are presently 342 active versions of Wikipedia, and 358 in total, though I will not be using data for the 16 closed editions.
+In this project, I wanted to investigate how different language editions of Wikipedia compare to each other, particularly in how 'large' they are. Here, the idea of 'size' refers to several different measurements of an edition's userbase, actual amount of content, etc. There are presently 342 active versions of Wikipedia, and 358 in total, though I will not be using data for the 16 which have been closed.
 
 ## Data Source and Processing
 I found my data for this project on the [Wikimedia Meta-Wiki](https://meta.wikimedia.org/wiki/Main_Page), which is... well, their wiki about their wikis. Their "[List of Wikipedias](https://meta.wikimedia.org/wiki/List_of_Wikipedias)" page contains a table called "[All Wikipedias ordered by number of articles](https://meta.wikimedia.org/wiki/List_of_Wikipedias#All_Wikipedias_ordered_by_number_of_articles)," which is, in part, exactly what it sounds like, but also contains other metrics by which you can judge the 'size' of a version of Wikipedia: 
