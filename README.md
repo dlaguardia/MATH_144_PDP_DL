@@ -2,7 +2,7 @@
 
 ## Introduction
 ## Data Source and Processing
-I found this data on the [Wikimedia Meta-Wiki](https://meta.wikimedia.org/wiki/Main_Page), which is... well, their wiki about their wikis. Their "[List of Wikipedias](https://meta.wikimedia.org/wiki/List_of_Wikipedias)" page contains a table called "[All Wikipedias ordered by number of articles](https://meta.wikimedia.org/wiki/List_of_Wikipedias#All_Wikipedias_ordered_by_number_of_articles)," which is, in part, exactly what it sounds like, but also contains several other metrics by which you can judge the 'size' of a version of Wikipedia: 
+I found my data for this project on the [Wikimedia Meta-Wiki](https://meta.wikimedia.org/wiki/Main_Page), which is... well, their wiki about their wikis. Their "[List of Wikipedias](https://meta.wikimedia.org/wiki/List_of_Wikipedias)" page contains a table called "[All Wikipedias ordered by number of articles](https://meta.wikimedia.org/wiki/List_of_Wikipedias#All_Wikipedias_ordered_by_number_of_articles)," which is, in part, exactly what it sounds like, but also contains several other metrics by which you can judge the 'size' of a version of Wikipedia: 
 - count of articles
 - count of all pages
   - includes non-articles, like discussion pages
@@ -16,9 +16,13 @@ I found this data on the [Wikimedia Meta-Wiki](https://meta.wikimedia.org/wiki/M
   - "...one of several possible rough indicators of the encyclopedia's collaborative quality" — see [this page](https://meta.wikimedia.org/wiki/Wikipedia_article_depth) for info. on how it is calculated  
 
 ![snapshot](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikicapture.png)
-As this table is updated [nine times per day](https://commons.wikimedia.org/wiki/Data:Wikipedia_statistics/data.tab), I used the Internet Archive's Wayback Machine to create a snapshot of the table as it was when I downloaded it, which can be found [here](https://web.archive.org/web/20251203040139/https://meta.wikimedia.org/wiki/List_of_Wikipedias).  
+Since this table is updated [nine times per day](https://commons.wikimedia.org/wiki/Data:Wikipedia_statistics/data.tab), I used the Internet Archive's Wayback Machine to create a snapshot of the table as it was when I downloaded it, which can be found [here](https://web.archive.org/web/20251203040139/https://meta.wikimedia.org/wiki/List_of_Wikipedias).  
 
-As stated, I then downloaded this table by exporting it as an .[xlsx](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikipedia_statistics_excel.xlsx) file. At that point, I converted it to a .[csv](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikipedia_statistics_csv.csv) file, because although RStudio could read both, I prefer the latter. (It's also able to be viewed on GitHub, which is convenient.)
+As stated, I then downloaded this table by exporting it as an .[xlsx](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikipedia_statistics_excel.xlsx) file. At that point, I converted it to a .[csv](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikipedia_statistics_csv.csv) file, because although RStudio could read both, I prefer the latter. (It's also able to be viewed on GitHub, which is convenient.) To make it workable, I removed:
+- the number/rank column (which appears as a question mark in the previous link)
+- the "Language (local)" column (as it was redundant)
+- the "Wiki" column (unnecessary for analysis)
+- the "Depth" column (I would look into this if I had more time, but for now I'm leaving that for the Meta-Wiki)
 
 ## Exploratory Analysis
 ### Scatterplot Matrix (ggpairs)
