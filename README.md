@@ -11,7 +11,7 @@ I found this data on the [Wikimedia Meta-Wiki](https://meta.wikimedia.org/wiki/L
 - number of active site users (have made an edit in the last thirty days)
 - count of locally uploaded files
 - depth
--   "...one of several possible rough indicators of the encyclopedia's collaborative quality" — see [this page](https://meta.wikimedia.org/wiki/Wikipedia_article_depth) for info. on how it is calculated
+  - "...one of several possible rough indicators of the encyclopedia's collaborative quality" — see [this page](https://meta.wikimedia.org/wiki/Wikipedia_article_depth) for info. on how it is calculated
 
 ![snapshot](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikicapture.png)
 https://web.archive.org/web/20251203040139/https://meta.wikimedia.org/wiki/List_of_Wikipedias
