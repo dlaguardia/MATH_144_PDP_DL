@@ -2,7 +2,15 @@
 
 ## Introduction
 ## Data Source and Processing
-https://meta.wikimedia.org/wiki/List_of_Wikipedias#All_Wikipedias_ordered_by_number_of_articles
+I found this data on the [Wikimedia Meta-Wiki](https://meta.wikimedia.org/wiki/List_of_Wikipedias#All_Wikipedias_ordered_by_number_of_articles), which is... well, their wiki about their wikis. Their "List of Wikipedias" page contains a table called "All Wikipedias ordered by number of articles," which is, in part, exactly what it sounds like, but also contains several other metrics by which you can judge the 'size' of a version of Wikipedia: 
+- count of articles
+- count of all pages (including non-articles, like discussion pages)
+- total edits made
+- number of current site admins
+- number of site users
+- number of active site users (have made an edit in the last thirty days)
+- count of locally uploaded files
+- depth ("...one of several possible rough indicators of the encyclopedia's collaborative quality" — see [this page](https://meta.wikimedia.org/wiki/Wikipedia_article_depth) for info. on how it is calculated)
 
 ![snapshot](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikicapture.png)
 https://web.archive.org/web/20251203040139/https://meta.wikimedia.org/wiki/List_of_Wikipedias
