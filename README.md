@@ -16,7 +16,7 @@ I found this data on the [Wikimedia Meta-Wiki](https://meta.wikimedia.org/wiki/M
   - "...one of several possible rough indicators of the encyclopedia's collaborative quality" — see [this page](https://meta.wikimedia.org/wiki/Wikipedia_article_depth) for info. on how it is calculated
 
 ![snapshot](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/wikicapture.png)
-As this table is updated [nine times per day](https://commons.wikimedia.org/wiki/Data:Wikipedia_statistics/data.tab), I used the Internet Archive's Wayback Machine to create a snapshot of the table as it was when I downloaded it, which can be found [here](https://web.archive.org/web/20251203040139/https://meta.wikimedia.org/wiki/List_of_Wikipedias).
+As this table is updated [nine times per day](https://commons.wikimedia.org/wiki/Data:Wikipedia_statistics/data.tab), I used the Internet Archive's Wayback Machine to create a snapshot of the table as it was when I downloaded it, which can be found [here](https://web.archive.org/web/20251203040139/https://meta.wikimedia.org/wiki/List_of_Wikipedias). (For the record, that was 11:00 pm EST on Nov. 2, 2025.)
 
 ## Exploratory Analysis
 ### Scatterplot Matrix (ggpairs)
