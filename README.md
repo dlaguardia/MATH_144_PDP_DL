@@ -54,7 +54,7 @@ I've also created a version of the above heatmap that includes the actual correl
 ## Analysis: Articles
 ### Further Exploratory Analysis
 
-To examine what might be going on here more clearly, I created a visualization that displays just the scatterplots for pairs in which one variable is article count. Obviously, this is more legible, and allows us to see each point more clearly.  
+To examine what might be going on here more clearly, I created a visualization that displays just the scatterplots for pairs in which one variable is article count. Obviously, this is more legible, and it allows us to see each point more clearly, as in the scatterplot matrix, some detail was sacrificed for the sake of displaying more information.  
 
 ![articles plots](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/articles_only_scatterplots.png)
 ### Re-Analyzing Correlation
