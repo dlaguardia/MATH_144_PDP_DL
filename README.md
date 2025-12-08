@@ -43,7 +43,7 @@ Interestingly, each scatterplot in which one variable in the pair was article co
 
 ### Heatmap (geom_tile)
 
-This is more clearly visualized using a correlation heatmap. Note the difference in the tiles representing pairs including article count — aside from these, the color is almost uniform.  
+This is more clearly visualized using a correlation heatmap. Note the difference in the tiles representing pairs which include article count — aside from these, the color is almost uniform.    
 
 ![correlation heatmap blank](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/correlation_tiles_wo_values.png)  
 
