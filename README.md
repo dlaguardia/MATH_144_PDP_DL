@@ -53,6 +53,9 @@ I've also created a version of the above heatmap that includes the actual correl
 
 ## Analysis: Articles
 ### Further Exploratory Analysis
+
+To examine what might be going on here more clearly, I created a visualization that displays just the scatterplots for pairs in which one variable is article count.  
+
 ![articles plots](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/articles_scatterplots.png)
 ### Re-Analyzing Correlation
 ![no cebuano wiki heatmap blank](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/nocebwiki_correlation_tiles_wo_values.png)
