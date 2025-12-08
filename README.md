@@ -84,8 +84,14 @@ I then used the observed data for the other size metrics to predict the Cebuano 
 ```
 predict(MODEL, data.frame(OTHER_SIZE_METRIC=c(OBSERVED)))
 ```
-The points plotted slightly larger and in orange represent Cebuano Wikipedia, were those predictions to be correct. It lands where you might expect it: mostly, among other more 'niche' Wikipedia editions. (The count of all pages, as that includes articles, is obviously still affected.)
+The points plotted slightly larger and in orange represent Cebuano Wikipedia, were those predictions to be correct. It lands where you might expect it: usually among other more 'niche' Wikipedia editions. ('Usually,' because the count of all pages, as that includes articles, is obviously still affected.)
 
 ![model](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/articles_scatterplots_cebanalysis.png)  
 
 ## Conclusion
+
+# Explanation
+
+So: why does this one version of Wikipedia contain such a disproportionately high number of articles? Was this an error in the dataset?  
+
+No, it's mostly just bots. Since 2012, [Lsjbot](https://en.wikipedia.org/wiki/Lsjbot), described on its own wiki page as "an automated Wikipedia article-creating program" originally developed for the Swedish edition, has been steadily producting Cebuano articles on "iving organisms and geographical entities" (though, as of 2020, it appears to have retired to simply doing maintenance). As of 2015, the bot was responsible for [99 percent](https://en.wikipedia.org/wiki/Cebuano_Wikipedia) of Cebuano Wikipedia.
