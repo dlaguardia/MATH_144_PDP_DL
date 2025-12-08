@@ -61,8 +61,15 @@ To examine what might be going on here more clearly, I created a visualization t
 The outlier with an unusually high x-value, visible again here, may suggest that there is one Wikipedia with an article count far greater than expected from the size of its userbase and the amount of non-article content it contains. It turns out that this is true: Wikipedia in [Cebuano](https://en.wikipedia.org/wiki/Cebuano_language), an Austronesian language native to the Phillipines with an estimated 20 million speakers, contains 6115852 articles as of our snapshot. This is the second-highest article count for any edition.  
 
 ### Re-Analyzing Correlation
-![no cebuano wiki heatmap blank](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/nocebwiki_correlation_tiles_wo_values.png)
-![no cebuano wiki labeled](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/nocebwiki_correlation_tiles_w_values.png)
+
+When this outlier — Cebuano Wikipedia — is removed from the dataset, the heatmap noticeably changes.  
+
+![no cebuano wiki heatmap blank](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/nocebwiki_correlation_tiles_wo_values.png)  
+
+Once again, this becomes even more evident when labeled with the Pearson correlation coefficients themselves.  
+
+![no cebuano wiki labeled](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/nocebwiki_correlation_tiles_w_values.png)  
+
 ### Regression and Model Predictions
 ```
 lm(formula = Articles ~ METRIC, data = labeledscatterdata)
