@@ -1,4 +1,4 @@
-<img width="97" height="30" alt="image" src="https://github.com/user-attachments/assets/e93c769e-1b52-4af5-abab-bd3cb8847689" /># Wikipedia Size by Language Edition
+# Wikipedia Size by Language Edition
 
 ## Introduction
 In this project, I wanted to investigate how different language editions of Wikipedia compare to each other, particularly in how 'large' they are. Here, the idea of 'size' refers to several different measurements of an edition's userbase and amount of content. There are presently 342 active versions of Wikipedia, and 358 in total. I will not be using data for the 16 which have been closed.
