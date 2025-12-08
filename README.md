@@ -86,7 +86,9 @@ predict(MODEL, data.frame(OTHER_SIZE_METRIC=c(ACTUAL)))
 ```
 The points plotted slightly larger and in orange represent Cebuano Wikipedia, were those predictions to be correct. It lands where you might expect it: mostly, among other more 'niche' Wikipedia editions. (The count of all pages, as that includes articles, is obviously still affected.)
 
-![model](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/articles_scatterplots_cebanalysis.png)
+![model](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/articles_scatterplots_cebanalysis.png)  
+
+The table below shows the predicted versus observed article count based on each measure.
 
 |   |All.pages|Edits|Admins|Users|Active.users|Files|
 |---|---------|-----|------|-----|------------|-----|
