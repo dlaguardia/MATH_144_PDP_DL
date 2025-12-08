@@ -66,9 +66,11 @@ When this outlier — Cebuano Wikipedia — is removed from the dataset, the hea
 
 ![no cebuano wiki heatmap blank](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/nocebwiki_correlation_tiles_wo_values.png)  
 
-Once again, this becomes even more evident when labeled with the Pearson correlation coefficients themselves.  
+Once again, this becomes even more evident when the tiles are labeled with the Pearson correlation coefficients themselves.  
 
 ![no cebuano wiki labeled](https://github.com/dlaguardia/MATH_144_PDP_DL/blob/main/nocebwiki_correlation_tiles_w_values.png)  
+
+The correlation between article count and the rest of the measures is still not as strong as that between the rest of the measures and each other, but Cebuano Wikipedia's high article count had clear influence.  
 
 ### Regression and Model Predictions
 ```
